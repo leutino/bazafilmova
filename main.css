@@ -10,12 +10,12 @@
   justify-content: space-around;
   list-style: none;
 }
-.grid {
+/* .grid {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px;
   font-size: 30px;
-}
+} */
 input {
  background-color:aliceblue
 }
@@ -44,7 +44,7 @@ footer {
   display: grid;
   min-height: 100vh;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 140px auto 50px;
+  grid-template-rows: 150px auto 50px;
   grid-template-areas: 
   "h h h h h h h h h h h h"
   "m m m m m m m m m m m m"
@@ -58,11 +58,24 @@ h1{
 button {
   border-radius: 20px;
   border: solid 1px goldenrod;
+  padding: 5px;
+}
+button:hover {
+  border-radius: 20px;
+  border: solid 1px black;
+  padding: 5px;
+  color: goldenrod;
 }
 header h2 {
  text-align: center;
  padding: 10px;
  color: rgb(158, 146, 115);
-
-
+}
+#filmovi {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+h3{
+  width: 100px;
 }

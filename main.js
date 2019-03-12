@@ -22,7 +22,7 @@ fetch(url)
 
             patternForMovies += `
                 <div class="movie">
-                    <img src=${slika} alt="Movie poster" width="100px" class="movie-img">
+                    <img src=${slika} alt="Movie poster" width="100px" height="150px" class="movie-img">
                     <div class="movie-body">
                         <h3>${naziv}</h3>
                         <p>${godina}</p>
