@@ -57,12 +57,12 @@ h1{
 }
 button {
   border-radius: 20px;
-  border: solid 1px goldenrod
+  border: solid 1px goldenrod;
 }
 header h2 {
  text-align: center;
  padding: 10px;
- color: rgb(25, 27, 27);
+ color: rgb(158, 146, 115);
 
 
 }
